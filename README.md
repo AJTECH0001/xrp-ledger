@@ -1,17 +1,19 @@
-# XRP Wallet Application
+# XRP Wallet: A React App for Interacting with the Ripple Testnet
 
 ## Overview
 
-### XRP wallet interface, interacting with the Ripple Testnet. It allows users to:
+### This React application simulates a basic XRP (Ripple) wallet, enabling users to:
 
-View XRP balance
-Send XRP payments
-View transaction logs
+Connect to the Ripple Testnet.
+Create and fund a testnet wallet.
+View their XRP balance.
+Initiate XRP payments to specified addresses.
+Track transaction logs for reference.
 
 ## Key Features:
 
-Connects to the Ripple Testnet.
-Funds a new testnet wallet.
-Displays the current XRP balance.
-Enables sending XRP payments to a specified address.
-Logs transaction details for user reference.
+Connects to the Ripple Testnet using the xrpl library.
+Funds a new testnet wallet using client.fundWallet().
+Displays the current XRP balance in a user-friendly format.
+Allows sending XRP payments to chosen recipients.
+Logs transaction details for comprehensive history and status tracking.
